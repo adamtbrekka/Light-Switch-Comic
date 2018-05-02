@@ -4,11 +4,11 @@ function switchLight(event){
   var switLabel = swit.innerHTML;
   var color = container.style.backgroundColor;
   if (color === 'black') {
-    /* swit.innerHTML = 'ON'; */
+    swit.innerHTML = switLabel.replace('☾','☀')
     container.style.backgroundColor = 'white';
     swit.style.backgroundColor = 'white';
   } else {
-    /* swit.innerHTML = 'OFF'; */
+    swit.innerHTML = switLabel.replace('☀','☾')
     container.style.backgroundColor = 'black';
     swit.style.backgroundColor = 'black';
   };

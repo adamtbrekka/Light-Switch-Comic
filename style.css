@@ -22,6 +22,8 @@
   border: none;
   display: inline-block;
   transition: background-color 0.5s ease-out;
+  width: 80px;
+  height: 20px;
 }
 
 .container {
@@ -30,4 +32,11 @@
 
 h3 {
   display: inline-block;
+}
+
+#lightswitch-container {
+  text-align:center;
+  position: -webkit-sticky; /* safari */
+  position: sticky;
+  top: 0;
 }
